@@ -7,10 +7,10 @@ class Database
         $stmt = $this->pdo->prepare($sql); $stmt->execute($params); return $stmt;
     }
     public function fetchAll(string $sql, array $params = []): array {
-        return $this->query($sql,$params).fetchAll();
+        return $this->query($sql,$params)->fetchAll();
     }
     public function fetch(string $sql, array $params = []): ?array {
-        $row=$this->query($sql,$params).fetch(); return $row?:null;
+        $row=$this->query($sql,$params)->fetch(); return $row?:null;
     }
     public function execute(string $sql, array $params = []): bool {
         return $this->query($sql,$params) !== False;
