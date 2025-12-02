@@ -79,17 +79,17 @@ $notifications = $db->fetchAll('SELECT * FROM notifications ORDER BY created_at 
     <meta charset="utf-8">
     <title>Admin - SEUP Manual</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/main.js" defer></script>
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
+    <script src="<?php echo BASE_URL; ?>/js/main.js" defer></script>
 </head>
 <body>
 <header>
     <h1>Admin Panel - SEUP User Manual</h1>
     <nav>
-        <a href="/">Pocetna</a>
-        <a href="/admin/">Dashboard</a>
-        <a href="/admin/?action=manual">Prirucnik</a>
-        <a href="/admin/?action=notifications">Obavijesti</a>
+        <a href="<?php echo BASE_URL; ?>/">Pocetna</a>
+        <a href="<?php echo BASE_URL; ?>/admin/">Dashboard</a>
+        <a href="<?php echo BASE_URL; ?>/admin/?action=manual">Prirucnik</a>
+        <a href="<?php echo BASE_URL; ?>/admin/?action=notifications">Obavijesti</a>
     </nav>
 </header>
 <main>
