@@ -1,6 +1,6 @@
 <?php
 define('SITE_NAME', 'SEUP User Manual');
-define('BASE_URL', 'https://manual.tvoja-domena.tld');
+define('BASE_URL', 'https://dokumentacija.8core.hr');
 define('DB_HOST', 'localhost');
 define('DB_NAME', '8core_manual');
 define('DB_USER', '8core_manual');
