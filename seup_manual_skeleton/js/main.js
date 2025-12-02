@@ -1,0 +1,1 @@
+console.log('SEUP manual skeleton loaded');

@@ -1,0 +1,1 @@
+<?php if (!defined('APP_INIT')) { die('Direct access not allowed.'); } ?><h2>Početna</h2><p>Ovdje će kasnije ići intro.</p>

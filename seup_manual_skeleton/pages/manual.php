@@ -1,0 +1,1 @@
+<?php if (!defined('APP_INIT')) { die('Direct access not allowed.'); } ?><h2>User Manual</h2><p>Ovjde će doc kasnije.</p>

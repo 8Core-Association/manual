@@ -1,0 +1,1 @@
+<?php define('APP_INIT', true); require __DIR__.'/../config/config.php'; require __DIR__.'/../class/Database.php'; $db=new Database($pdo);?><h1>Admin zona</h1>
