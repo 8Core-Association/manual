@@ -18,6 +18,14 @@ try {
         DB_PASS,
         $options
     );
+
+    $schemaFile = __DIR__ . '/../database_schema.sql';
+    if (file_exists($schemaFile)) {
+        $sql = file_get_contents($schemaFile);
+        if ($sql !== false) {
+            $pdo->exec($sql);
+        }
+    }
 } catch (PDOException $e) {
     http_response_code(500);
     echo 'Database connection error.';
